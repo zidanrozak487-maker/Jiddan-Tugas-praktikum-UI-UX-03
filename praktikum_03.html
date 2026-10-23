@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Web Profile</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .biodata {
+        display: flex;
+        padding: 20px;
+        gap: 7rem;
+      }
+      .biodata .gambar {
+        flex: 1;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+      }
+      .biodata .gambar img {
+        width: 300px;
+        height: 300px;
+        border: solid 2px black;
+        border-radius: 10px;
+      }
+      .biodata .isi-biodata {
+        flex: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1.2em;
+        width: 100%;
+        height: 100%;
+      }
+      .biodata .categories {
+        padding: 20px;
+        width: 200px;
+      }
+      .deskripsi-diri {
+        padding: 20px;
+        text-align: justify;
+      }
+      .konten-multimedia {
+        padding: 20px;
+        display: flex;
+        gap: 3rem;
+        justify-content: space-evenly;
+        align-self: center;
+      }
+
+      .konten-multimedia .area-video {
+        width: max-content;
+      }
+      .konten-multimedia .area-video iframe {
+        border: solid black 4px;
+        width: 500px;
+        height: 200px;
+      }
+      .konten-multimedia .koleksi-foto {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+      .konten-multimedia .koleksi-foto img {
+        width: 200px;
+      }
+      .konten-multimedia .download-file fieldset {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        padding: 10px;
+      }
+      .konten-multimedia .download-file fieldset legend {
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="biodata">
+      <div class="gambar">
+        <img src="IMG-jidan.jpg" alt="jiddan" />
+      </div>
+      <div class="isi-biodata">
+        <h1>Biodata diri</h1>
+        <p>Nama lengkap: Muhammad Jiddan Rojak</p>
+        <p>NIM anggota: 0110226147</p>
+        <p>lahir: Bogor, 19 Februari 2008</p>
+        <p>
+          Program studi / Kelas / Jurusan: Teknik Informatika Tempat, tanggal
+        </p>
+        <p>Hobi: Dengerin musik, memperbaiki baramg elektronik, main game</p>
+        <p>
+          Instagram:
+          <a href="https://www.instagram.com/mjidanrojak?dlrf=MWlzZGliZGxiMGJ2NQ==&utm_source=ig_contact_invite" target="_blank"
+            >@mjidanrojak</a
+          >
+        </p>
+      </div>
+      <div class="categories">
+        <h3>Minat dan bakat</h3>
+        <p>custom rom</p>
+        <p>tidur</p>
+        <p>Music dj</p>
+        <p>Ngaji</p>
+      </div>
+    </div>
+    <div class="deskripsi-diri">
+      <p>
+        Nama saya Muhammad Jiddan Rojak, seorang remaja berumur 18 tahun,
+        lahir pada tahun 2008 bulan Februari tanggal 19. Saya tinggal di Kota
+        Bogor,Kecamatan Bogor Barat, desa Balumbang Jaya. Saya seorang
+        mahasiswa semester 1 jurusan teknik informatika di STT Terpadu Nurul
+        fikri.
+      </p>
+      <br />
+      <p>
+        Makanan favorit saya adalah tempe orek, saya suka memperbaiki barang elektronik terutama speaker, saya suka main game, saya suka mendengarkan musik,
+        terutama dj, pop, phonk, dan hipdut (hiphop dandut).
+      </p>
+    </div>
+    <div class="konten-multimedia">
+      <div class="area-video">
+        <iframe
+          src="https://www.youtube.com/embed/XtCInYeEGtM?si=y438GWovsoLU5rLI"
+          title="YouTube video player"
+          frameborder="0"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share;
+          "
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="koleksi-foto">
+        <img
+          src="https://i.pinimg.com/736x/4d/d6/11/4dd611916ca4064c2a557774228583bf.jpg"
+          alt="Alan Walker"
+        />
+        <img
+          src="https://yt3.googleusercontent.com/oso9lwlRELbT9g30EIaWeHc0_9BEkwMx2ePo1tX9NfQofQZFQFctYNKajnJs__S5ptxIBqy5Mw=s900-c-k-c0x00ffffff-no-rj"
+          alt="Dj bagasz team"
+        />
+        <img
+          src="https://i1.sndcdn.com/artworks-000635127211-15i6im-t1080x1080.jpg"
+          alt="Alan Walker"
+        />
+        <img
+          src="https://static.qobuz.com/images/covers/8b/ad/w6ny353e7ad8b_600.jpg"
+          alt="phonk"
+        />
+        <img
+          src="https://yt3.googleusercontent.com/1jn1e-_vEGfJb9HaQsPy9kP4fJVWk86YYOgdJJOy9uFYXIUyqZ0HbduBe5dFOXmflqUReh37vg=s900-c-k-c0x00ffffff-no-rj"
+          alt="Dj bagasz indonesia"
+          />
+        <img
+          src="https://i.scdn.co/image/ab67616d00001e02bc6ee0a7c05af5d905d9a7ac"
+          alt="Dia"
+      </div>
+      <div class="download-file">
+        <fieldset>
+          <legend>Download File Prakktikum Lainnya</legend>
+          <a
+            href="../Praktikum 01/praktikum_01.html"
+            download="prakrikum_01.html"
+            >download_file_praktikum01</a
+          >
+          <a
+            href="../praktikum 02/praktikum_02"
+            download="praktikum_02"
+            >download_file_praktikum02</a
+          >
+          <a
+            href="../Tugas 03/praktikum_03"
+            download="praktikum_03"
+            >download_file_praktikum03</a
+          >
+        </fieldset>
+      </div>
+    </div>
+  </body>
+</html>
